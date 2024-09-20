@@ -3,6 +3,7 @@
 
 ## Задача 1
 ```cut -d: -f1 /etc/passwd |sort```
+![image](https://github.com/user-attachments/assets/38aab82b-6af9-4a3a-9969-3ea4c6ed6b36)
 
 
 ## Задача 2
