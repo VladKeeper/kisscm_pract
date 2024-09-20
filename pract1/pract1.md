@@ -10,6 +10,7 @@
 ## Задача 2
 ```awk '{print $2, $1}' /etc/protocols | sort -k1,1nr | head -n 5```
 
+![image](https://github.com/user-attachments/assets/cb87d570-0feb-4909-9b24-144e28d0a178)
 
 ## Задача 3
 ```
