@@ -16,24 +16,19 @@
 ```
 #!/bin/bash
 
-if [ $# -eq 0 ]; then
-    echo "Использование: $0 \"Ваш текст\""
-    exit 1
-fi
-
-text="$1"
-
+text=$*
 length=${#text}
 
-border=$(printf "%0.s-" $(seq 1 $((length + 2))))
+for i in $(seq 1 $((length + 2))); do
+    line+="-"
+done
 
-border="+$border+"
-
-echo "$border"
-echo "| $text |"
-echo "$border"
+echo "+${line}+"
+echo "| ${text} |"
+echo "+${line}+"
 ```            
 
+![image](https://github.com/user-attachments/assets/e43cd7ea-2b8b-4532-a65e-270b7be1c2d9)
 
 ## Задача 4
 ```
