@@ -35,6 +35,8 @@ echo "+${line}+"
 grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' test.c | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
 ```
 
+![image](https://github.com/user-attachments/assets/cb62abdb-9e09-4670-8c89-05df285cdb66)
+
 
 ## Задача 5
 ```
