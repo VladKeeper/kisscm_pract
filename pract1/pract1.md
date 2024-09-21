@@ -41,7 +41,7 @@ grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' test.c | grep -vE '\b(int|void|return|if|e
 ## Задача 5
 ```
 chmod +x reg
-sudo cp $1 /usr/local/bin
+ls /usr/local/bin
 ```
 
 ![image](https://github.com/user-attachments/assets/1360e919-9dac-4deb-9091-c833c97f9ef4)
